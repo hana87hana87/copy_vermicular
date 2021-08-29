@@ -1,0 +1,1231 @@
+/* トップ画像 */
+
+.top-wrapper{
+    height:500px;
+    
+    
+    
+}
+
+
+
+
+h1{
+    font-family: 'Franklin Gothic Medium', sans-serif;
+
+}
+
+.box1{
+    width        : 100%;
+    height       : 700px;
+    background   : gray;
+      }
+
+
+      
+
+
+      .slideBox {
+        height: 500px;
+        overflow: hidden;
+        position: relative;
+        width:100%;
+      }
+      
+      /* テキストがあるバージョン */
+      .title {
+        font-size: 15px;
+        color: #fff;
+        z-index: 11;
+        position: absolute;
+        top: 3%;
+        left: 5%;
+        transform: translate(-50%,-50%);
+      }
+      
+      .item2 {
+        z-index: 10;
+        opacity: 0;
+        width: 100%;
+        height: 500px;
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: absolute;
+        left: 0;
+        top: 0;
+        -webkit-animation: anime 15s 0s infinite;
+        animation: anime 15s 0s infinite;
+      }
+      
+      .item2:nth-of-type(2) {
+        -webkit-animation-delay: 5s;
+        animation-delay: 5s;
+      }
+      
+      .item2:nth-of-type(3) {
+        -webkit-animation-delay: 10s;
+        animation-delay: 10s;
+      }
+      
+      /* ふわっとアニメーション */
+      @keyframes anime {
+        0% {
+          opacity: 0;
+        }
+        30% {
+          opacity: 1;
+        }
+        35% {
+          opacity: 1;
+        }
+        50% {
+          opacity: 0;
+          z-index: 9;
+        }
+        100% {
+          opacity: 0;
+        }
+      }
+      
+      @-webkit-keyframes anime {
+        0% {
+          opacity: 0;
+        }
+        30% {
+          opacity: 1;
+        }
+        35% {
+          opacity: 1;
+        }
+        50% {
+          opacity: 0;
+          z-index: 9;
+        }
+        100% {
+          opacity: 0;
+        }
+      }
+
+      
+
+
+
+
+
+/* メニューリスト*/  
+     
+
+.top-list{
+    
+}
+
+
+
+.top-list li{
+    list-style: none;
+    padding-right:20px;
+    font-family: 'ヒラギノ明朝 ProN','Hiragino Mincho ProN',sans-serif;
+    font-size:12px;
+    
+    
+}
+
+
+
+.list li{
+    float:left;
+   
+    
+}
+
+.list{
+    
+}
+
+.list2 li{
+    float:left;
+    
+}
+    
+
+
+
+
+   
+    
+
+
+
+.seihin-lineup{
+    padding-left:450px;
+}
+
+.jp-us{
+    padding-left:250px;
+}
+
+
+.top-wrpper{
+    border-bottom:solid 1px rgba(128, 128, 128, 0.164);
+}
+
+
+
+
+
+/* ピックアップーcontents1*/  
+
+
+h2{
+   padding-top:50px;
+    border-width: 1px;
+    clear: left;
+    padding-bottom:1px;
+    text-align: center;
+    font-family: 'ヒラギノ明朝 ProN','Hiragino Mincho ProN',sans-serif;
+    
+
+    
+
+
+
+
+}
+
+h2 span{
+    text-align: center;
+    font-family: 'Athelas',sans-serif;
+    font-size:15px;
+    display:block;
+    line-height:2;
+    font-weight: lighter;
+
+
+}
+
+.contents1{
+   
+    height:550px;
+    width:80%;
+    margin: 0 auto;
+   
+    
+}
+
+.contents1 p{
+    
+    text-align: center;
+    font-family: 'Athelas',sans-serif;
+    font-size:15px;
+
+    
+}
+
+
+.box2{
+    width:800px;
+    height:250px;
+    background-color:gray;
+    margin:0 auto;
+    padding-top:50px;
+}
+
+.border-box{
+    border:solid 1px black;
+    
+    height:30px;
+     
+   width:200px;
+    text-align:center;
+    font-family: 'ヒラギノ明朝 ProN','Hiragino Mincho ProN','Athelas',sans-serif;
+    color:black;
+    font-size:10px;
+    
+}
+
+.c1{
+    width:200px;
+    margin: 0 auto;
+
+}
+
+
+
+
+
+
+    
+    
+
+
+
+
+
+
+
+h3{
+    padding-bottom:1px;
+    text-align: center;
+
+}
+
+
+
+
+
+/* 製品ラインナップーcontents2*/  
+
+.contents2{
+    
+    
+    height:800px;
+    width:80%;
+    margin: 0 auto;
+    
+
+}
+
+
+
+h2{
+    text-align:center;
+    color:rgb(34,36,39);
+}
+
+.productslineup-text{
+    font-family: 'Hiragino Kaku Gothic ProN','ヒラギノ角ゴ ProN W3',sans-serif;
+    text-align:center;
+    font-size:13px;
+    color:rgb(34,36,39);
+
+}
+
+.contents2 p{
+    text-align:center;
+    font-family: 'ヒラギノ明朝 ProN','Hiragino Mincho ProN','Athelas',sans-serif;
+}
+
+
+.prroduct-list{
+    font-family: 'ヒラギノ明朝 ProN','Hiragino Mincho ProN','Athelas',sans-serif;
+}
+
+.product-text{
+    text-align:center;
+    font-family: 'ヒラギノ明朝 ProN','Hiragino Mincho ProN','Athelas',sans-serif;
+    font-size:13px;
+    color:rgb(34,36,39);
+
+}
+
+
+.product-text{
+    text-align:center;
+}
+
+.box3{
+    width:350px;
+    height:250px;
+    background-color: gray;
+    
+    
+
+}
+
+.ovenpot{
+    margin-right:20px;
+
+}
+
+.ricepot{
+    margin-right:20px;
+
+}
+
+.feying{
+
+}
+
+
+.product-list li{
+    list-style:none;
+    float:left;
+    font-family: 'ヒラギノ明朝 ProN','Hiragino Mincho ProN','Athelas',sans-serif;
+    
+}
+
+
+
+
+/* 写真が3つ並んでいるところーcontents3*/ 
+
+
+.contents3{
+    margin-top:350px;
+    width:60%;
+   margin:0 auto;
+    height:250px;
+    
+    
+}
+
+.photo-list{
+    display:inline;
+}
+
+.photo-list li{
+    list-style: none;
+    float:left;
+    font-family: 'ヒラギノ明朝 ProN','Hiragino Mincho ProN','Athelas',sans-serif;
+    
+}
+
+.photo-list p{
+    text-align:center;
+}
+
+
+.box4{
+    width:250px;
+    height:130px;
+    background-color: gray;
+
+    
+    
+}
+
+.kitchen{
+    margin-left:15px;
+}
+
+.books{
+    margin-right:15px;
+}
+
+.food{
+    margin-right:15px;
+    margin-left:15px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* フライパンの広告部分ーcontents4*/ 
+
+
+.contents4{
+    clear: left;
+    
+    background-color:;
+    
+    height:400px;
+    width:80%;
+    margin: 0 auto;
+    font-family: 'ヒラギノ明朝 ProN','Hiragino Mincho ProN','Athelas',sans-serif;
+    
+   
+    
+    
+    
+}
+
+.box9{
+    width:550px;
+    height:350px;
+    background-color: gray;
+    float:left;
+   
+
+}
+
+.box10{
+    width:550px;
+    height:350px;
+    background-color:rgb(234,231,226);
+    float:left;
+    position:relative;
+    
+
+}
+
+.boxright-text{
+    text-align:center;
+    line-height:0.2;
+    color:rgb(34,36,39);
+    
+}
+
+.varmicular{
+    padding-top:80px;
+    font-size:25px;
+    font-family: 'Hiragino Kaku Gothic ProN','ヒラギノ角ゴ ProN W3',sans-serif;
+
+}
+
+.varmicular span{
+    
+    font-weight: bold;
+
+}
+
+.newsizesdebut{
+    font-size:20px;
+
+}
+
+.more{
+    font-size:5px;
+}
+
+.border-box{
+    margin-top:50px;
+    padding:20px 50px;
+    border-color:rgb(34,36,39) ;
+    
+}
+
+
+.c4{
+    
+    position:absolute;
+    top:150px;
+    left:110px;
+}
+
+
+
+
+
+
+
+/* シェフーcontents5*/ 
+
+
+.contents5{
+    
+    
+    clear:left;
+    height:800px;
+   
+    font-family: 'ヒラギノ明朝 ProN','Hiragino Mincho ProN','Athelas',sans-serif;
+    
+    
+    
+}
+
+.member-back{
+    height:400px;
+    width:100%;
+    background-color: rgb(34,36,39);
+}
+
+.member-back p{
+    padding-top:80px;
+    color:white;
+    font-size:25px;
+    font-family: 'Hiragino Kaku Gothic ProN','ヒラギノ角ゴ ProN W3',sans-serif;
+    text-align:center;
+    font-weight: ;
+}
+
+.member-back span{
+    font-weight: lighter;
+}
+
+.contents5 p{
+    text-align:center;
+    padding:50px 0;
+    
+}
+
+.member{
+    z-index: 10;
+    width:80%;
+    margin: 0 auto;
+}
+
+.member p{
+    color:rgb(34,36,39);
+    font-size:15px;
+    font-family: 'Hiragino Kaku Gothic ProN','ヒラギノ角ゴ ProN W3',sans-serif;
+    text-align:left;
+
+}
+
+
+.box11{
+    width:320px;
+    height:400px;
+    margin-right:70px;
+    
+    
+
+}
+
+.box12{
+    width:320px;
+    margin-right:70px;
+    height:400px;
+    
+    
+    
+}
+
+
+.box13{
+    width:320px;
+    height:400px;
+    
+    
+}
+
+.member span{
+    font-weight: bold;
+    font-size:20px;
+}
+
+.member1{
+    float:left;
+
+}
+
+.member2{
+    float:left;
+    
+}
+
+.member3{
+    float:left;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* レシピサイトーcontents6*/ 
+
+
+.contents6{
+    height:600px;
+    font-family: 'ヒラギノ明朝 ProN','Hiragino Mincho ProN','Athelas',sans-serif;
+
+}
+
+.recipes{
+    text-align:center;
+    color:white;
+    font-size:40px;
+
+
+}
+.recipes-text{
+    text-align:center;
+    color:white;
+    font-family: 'Hiragino Kaku Gothic ProN','ヒラギノ角ゴ ProN W3',sans-serif;
+    font-size:15px;
+
+}
+
+.myVARMICULAR{
+    color:white;
+    font-family: 'ヒラギノ明朝 ProN','Hiragino Mincho ProN','Athelas',sans-serif;
+    font-size:5px;
+}
+
+.box14-text{
+    padding:30px 0;
+    z-index:10;
+    
+}
+
+.box14{
+    width        : 100%;
+    height       : 500px;
+    background   : gray;
+
+}
+
+.border-box2{
+    padding:5px,10px;
+    text-align:center;
+    width:200px;
+    margin:0 auto;
+    margin-top:30px;
+    font-weight: bold;
+    border: solid 1px white;
+
+}
+
+
+
+
+
+
+
+
+/* フライパンの紹介ーcontents7*/ 
+
+
+.contents7{
+    height:500px;
+    font-family: 'ヒラギノ明朝 ProN','Hiragino Mincho ProN','Athelas',sans-serif;
+    position:relative;
+}
+
+.c7{
+    position:absolute;
+    top:220px;
+    left:22%;
+
+}
+
+
+.box15{
+    width        : 100%;
+    height       : 400px;
+    position:relative;
+    
+    
+   
+    
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 施設ーcontents8*/ 
+
+.contents8{
+    height:500px;
+    width:80%;
+    margin: 0 auto;
+    position:relative;
+}
+
+
+
+
+.box16{
+    height:400px;
+    background-color: gray;
+    width:100%;
+    
+}
+
+
+
+.box16-text{
+    text-align:center;
+    color:white;
+    font-size:30px;
+    
+    position:absolute;
+    top:100px;
+    left:380px;
+}
+
+.box16-text span{
+    font-size:20px;
+    
+}
+
+
+
+.c8{
+    position:absolute;
+    top:250px;
+    left:430px;
+    color:white;
+    border:solid 1px white;
+
+}
+
+
+.box16-border-box p{
+    text-align:center;
+    font-family: 'ヒラギノ明朝 ProN','Hiragino Mincho ProN','Athelas',sans-serif;
+    color:white;
+    font-size:10px;
+    
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+/* 使用シーンーcontents9*/ 
+
+.contents9{
+    width:80%;
+    height:500px;
+    margin: 0 auto;
+    position:relative;
+}
+
+
+.box17{
+    background-color:gray;
+    width:100%;
+    height:400px;
+    
+}
+
+
+
+
+.c9{
+    position:absolute;
+    top:200px;
+    left:400px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ニュースーcontents10*/ 
+
+
+.contents10{
+    height:600px;
+    width:80%;
+    margin: 0 auto;
+    font-family: 'ヒラギノ明朝 ProN','Hiragino Mincho ProN','Athelas',sans-serif;
+    
+}
+
+
+
+
+
+
+.btn{
+    padding-top:5px;
+    padding-bottom:5px;
+    padding-right:50px;
+    padding-left:50px;
+    width:100px;
+    margin:0 auto;
+    margin-top:20px;
+    font-weight: bold;
+    border: solid 3px #000000;
+    text-align:center;
+    float:left;
+    border-width:1px;
+
+}
+
+
+.btn1{
+    background-color:black;
+    color:white;
+}
+
+
+
+
+.btns{
+    width:404px;
+    margin:0 auto;
+
+}
+
+.newstopics{
+    clear:left;
+    padding-top:30px;
+   
+}
+
+.newstopics2{
+    display:none;
+}
+
+.news1{
+    border-top: solid 1px gray;
+    border-bottom:solid 1px gray;
+    font-size:13px;
+    
+}
+
+.news{
+    border-bottom: solid 1px gray;
+    font-size:13px;
+    
+
+}
+
+.news1 p{
+    text-align:left;
+}
+
+.news p{
+    text-align:left;
+}
+
+
+
+.news1 span{
+    font-weight: bold;
+    padding-right: 30px;
+
+}
+
+.news span{
+    font-weight: bold;
+    padding-right: 30px;
+}
+
+.newstopics{
+    margin-bottom:50px;
+}
+
+
+
+
+
+
+.newstopics{
+    font-family: 'Hiragino Kaku Gothic ProN','ヒラギノ角ゴ ProN W3',sans-serif;
+}
+
+.news-top p{
+    text-align:center;
+}
+
+
+
+.c10{
+    margin: 0 auto;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* 写真3つ並んでいるーcontents11*/ 
+
+.contents11{
+   
+clear:left;
+width:60%;
+   margin:0 auto;
+   height:300px;
+   font-family: 'ヒラギノ明朝 ProN','Hiragino Mincho ProN','Athelas',sans-serif;
+   
+   
+
+}
+
+.photos{
+    width:100%;
+    margin: 0 auto;
+}
+
+.photo{
+    float:left;
+    
+    
+}
+
+
+.box18{
+    height:130px;
+    width:250px;
+    background-color: gray;
+    margin-right:15px;
+    
+
+}
+
+.box19{
+    height:130px;
+    width:250px;
+    background-color: gray;
+    margin-right:15px;
+}
+
+.box20{
+    height:130px;
+    width:250px;
+    background-color: gray;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* サイトマップーcontents12*/ 
+
+
+.contents12{
+    width:100%;
+    margin: 0 auto;
+    border-top:solid 1px rgb(34,36,39);
+    height:650px;
+   font-family: 'Hiragino Kaku Gothic ProN','ヒラギノ角ゴ ProN W3',sans-serif;
+   clear: left;
+}
+
+.sitemap-wrapper{
+    width:80%;
+    margin: 0 auto;
+}
+
+
+
+
+
+
+
+
+h4{
+    border-bottom:solid 1px gray;
+}
+
+.sitemap{
+    width:200px;
+    float:left;
+    font-size:13px;
+}
+
+.sitemap p{
+    text-align:left;
+}
+
+.sitemap span{
+    font-weight: bold;
+}
+
+
+.products-lineup{
+    padding-right:50px;
+    padding-left:50px;
+
+}
+
+.recipe{
+    padding-right:50px;
+
+}
+
+.aboutus{
+    padding-right:50px;
+
+}
+
+.box21{
+    width:200px;
+    height:100px;
+    background-color:gray;
+}
+
+.box22{
+    width:200px;
+    height:150px;
+    background-color:gray;
+
+}
+
+.sitemapbtn{
+    width:90px;
+    height:20px;
+    border:solid 1px rgb(34,36,39);
+    display:inline-block;
+    margin-bottom:20px;
+    text-align:center;
+    padding-top:8px;
+    font-family: 'ヒラギノ明朝 ProN','Hiragino Mincho ProN','Athelas',sans-serif;
+    font-size:5px;
+}
+
+.twitter{
+    margin-right:5px;
+}
+
+.mailmagazine{
+    width:185px;
+    height:30px;
+}
+
+.fab{
+    padding-right:5px;
+
+}
+
+.far{
+    padding-right:5px;
+
+}
+
+
+footer{
+    background-color: black;
+    color:white;
+}
+
+
+
+h5{
+    font-family: 'ヒラギノ明朝 ProN','Hiragino Mincho ProN','Athelas',sans-serif;
+    font-size:20px;
+    padding-left:50px;
+    
+
+}
+
+
+
+footer{
+    height:50px;
+    width:100%;
+    background-color:rgb(34,36,39);
+    color:white;
+}
+
+footer p{
+    padding-top:10px;
+    padding-bottom:10px;
+    text-align:center;
+    font-size:5px;
+}
+
+
+
+
+
+/*==================================================
+スライダーのためのcss
+===================================*/
+.slider {/*横幅94%で左右に余白を持たせて中央寄せ*/
+    width:94%;
+     margin:0 auto;
+ }
+ 
+ .slider img {
+     width:100%;/*スライダー内の画像を横幅100%に*/
+     height:auto;
+ }
+ 
+ /*slickのJSで書かれるタグ内、スライド左右の余白調整*/
+ 
+ .slider .slick-slide {
+     margin:0 10px;
+ }
+ 
+ /*矢印の設定*/
+ 
+ /*戻る、次へ矢印の位置*/
+ .slick-prev, 
+ .slick-next {
+     position: absolute;/*絶対配置にする*/
+     top: 42%;
+     cursor: pointer;/*マウスカーソルを指マークに*/
+     outline: none;/*クリックをしたら出てくる枠線を消す*/
+     border-top: 2px solid #666;/*矢印の色*/
+     border-right: 2px solid #666;/*矢印の色*/
+     height: 15px;
+     width: 15px;
+ }
+ 
+ .slick-prev {/*戻る矢印の位置と形状*/
+     left: -1.5%;
+     transform: rotate(-135deg);
+ }
+ 
+ .slick-next {/*次へ矢印の位置と形状*/
+     right: -1.5%;
+     transform: rotate(45deg);
+ }
+ 
+ /*ドットナビゲーションの設定*/
+ 
+ .slick-dots {
+     text-align:center;
+     margin:20px 0 0 0;
+ }
+ 
+ .slick-dots li {
+     display:inline-block;
+     margin:0 5px;
+ }
+ 
+ .slick-dots button {
+     color: transparent;
+     outline: none;
+     width:8px;/*ドットボタンのサイズ*/
+     height:8px;/*ドットボタンのサイズ*/
+     display:block;
+     border-radius:50%;
+     background:#ccc;/*ドットボタンの色*/
+ }
+ 
+ .slick-dots .slick-active button{
+     background:#333;/*ドットボタンの現在地表示の色*/
+ }
